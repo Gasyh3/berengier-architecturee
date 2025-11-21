@@ -89,13 +89,17 @@ export default function Carousel() {
     if (index === active) {
       return "z-30 scale-105 opacity-100 blur-0 saturate-100 brightness-100 shadow-2xl";
     }
+
     const leftNeighbor = (active - 1 + images.length) % images.length;
     const rightNeighbor = (active + 1) % images.length;
+
     if (index === leftNeighbor || index === rightNeighbor) {
       return "z-20 scale-95 opacity-40 blur-sm saturate-0 brightness-125 backdrop-brightness-200";
     }
-    return "pointer-events-none hidden opacity-0 blur-sm md:block md:opacity-0";
+
+    return "pointer-events-none opacity-0 blur-sm md:opacity-0";
   };
+
 
   return (
     <div className="w-full rounded-[40px] bg-white px-0 py-12 sm:px-4">

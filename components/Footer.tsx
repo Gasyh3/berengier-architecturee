@@ -29,8 +29,8 @@ export default function Footer() {
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-800">Contact</p>
             <div className="space-y-2 text-sm">
-              <p>contact@atelier-berengier.fr</p>
-              <p>06 71 23 45 89</p>
+              <p>berengier.architecture@gmail.com</p>
+              <p>+33 7 70 51 61 62</p>
               <p>Lyon · Interventions France entière</p>
             </div>
           </div>
@@ -47,14 +47,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-3 border-t border-white/40 pt-6 text-xs text-slate-800 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Bérengier Architecture. Tous droits réservés.</p>
-          <div className="flex flex-wrap gap-4">
-            <a href="#" className="transition hover:text-white">
-              Mentions légales
-            </a>
-            <a href="#" className="transition hover:text-white">
-              Politique de confidentialité
-            </a>
-          </div>
+
         </div>
       </div>
     </footer>

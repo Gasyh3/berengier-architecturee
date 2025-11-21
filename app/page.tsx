@@ -33,11 +33,11 @@ const services = [
   }
 ];
 
-const partners = ["Monolithe", "BatiNova", "Atelier 3G", "Link Travaux", "Horizon Bois", "Quartus Local"];
+const partners = ["2B Prestige", "BatiNova", "Atelier 3G", "Link Travaux", "Horizon Bois", "Quartus Local"];
 
 const contactInfo = [
-  { label: "Email", value: "contact@atelier-berengier.fr", icon: "✉" },
-  { label: "Téléphone", value: "06 71 23 45 89", icon: "☎" },
+  { label: "Email", value: "berengier.architecture@gmail.com", icon: "✉" },
+  { label: "Téléphone", value: "+33 7 70 51 61 62", icon: "☎" },
   { label: "Disponibilités", value: "Lundi - Vendredi · 8h / 19h", icon: "⌛" },
   { label: "Localisation", value: "Lyon · Interventions France entière", icon: "📍" }
 ];
